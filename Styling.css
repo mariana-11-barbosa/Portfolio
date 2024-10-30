@@ -1,0 +1,429 @@
+body {
+	margin: 0;
+	font-family: "Outfit", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.Home-PageBack {
+	background-image: url(./Media-NoProjects/Background.jpg);
+	background-size: 130%;
+    background-position: center;
+	width: 100%;
+	height: 100vh; 
+}
+
+#Name-Page {
+    color: #ffffff;
+    text-align: center;
+    padding: 290px 90px 0px 90px;
+	margin: auto;
+	font-family: "Outfit", sans-serif;
+	font-size: 100px;
+	line-height: 90px;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 30px;
+    background-color: rgba(214, 141, 176, 0); /* 0 para transparência */
+    font-family: "Outfit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 23px;
+    display: flex;
+    justify-content: space-between; /* Distribui o conteúdo do navbar */
+    align-items: center; /* Centraliza verticalmente os itens */
+    z-index: 1000;
+}
+
+
+.navbar-links {
+    display: flex;
+	padding-right: 60px;
+}
+
+
+#navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#navbar a:hover {
+    color: #515050;
+}
+
+.navbar-links a {
+    margin-left: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+#navbar .name-link {
+	font-weight: bold;
+	font-size: 1em;
+}
+
+#statement {
+    color: #ffffff;
+    text-align: center;
+    padding: 230px 90px 60px 90px;
+	margin: auto;
+	font-family: "Outfit", sans-serif;
+	font-size: 100px;
+}
+
+
+section {
+	margin: 20px 30px;
+}
+
+section h2 {
+	color:#ffffff;
+	font-size: 40px;
+	font-family: "Outfit", sans-serif;
+}
+
+#Projects-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
+    padding: 0px 0px;
+}
+
+.grid {
+    position: relative;
+    overflow: hidden;
+}
+
+.grid a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(58, 58, 58, 0.562); /* Adjust color/opacity as needed */
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.grid:hover .overlay {
+    opacity: 1;
+}
+
+.text-overlay-title {
+    color: white;
+	font-family: "Outfit", sans-serif;
+    font-size: 30px;
+	font-weight: 600;
+    text-align: center;
+    padding: 180px;
+}
+
+#Projects-grid .grid {
+	height: 30vw;
+}
+
+.Aconchega-PageBack {
+	background-image: url(/Portfolio/Aconchega/Aconchega-Media/Background.jpg);
+	background-size: cover;
+    background-position: center;
+	width: 100%;
+	height: 100vh; 
+}
+
+.HOMEPosters-PageBack {
+	background-image: url(/Portfolio/Home/Home-Media/Background.jpg);
+	background-size: 130%;
+    background-position: center;
+	width: 100%;
+	height: 100vh;
+}
+
+.GossipGame-PageBack {
+	background-image: url(/Portfolio/GossipGame/GossipGame-Media/Background.jpg);
+	background-size: cover;
+    background-position: center;
+	width: 100%;
+	height: 100vh; 
+}
+
+.DrMartens-PageBack {
+	background-image: url(/Portfolio/DrMartens/DrMartens-Media/Boots.jpg);
+	background-size: cover;
+    background-position: center;
+	width: 100%;
+	height: 100vh; 
+}
+
+.About-PageBack {
+	background-color: rgb(214, 141, 176);
+	height: 100vh; 
+}
+
+.Work-PageBack {
+	background-color: rgb(214, 141, 176);
+	height: 80vh; 
+}
+
+.Contact-PageBack {
+	background-color: rgb(214, 141, 176);
+	height: 100vh; 
+	color: #ffffff;
+}
+
+#Project-Name {
+	font-family: "Outfit", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 800;
+	font-style: bold;
+	font-size: 60px;
+
+	margin: 10px;
+}
+
+#Project-Description {
+	font-family: "Outfit", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: bold;
+	font-size: 25px;
+
+	text-align: center;
+
+	margin: 10px;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+.column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.column img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+#All-Projects-Link {
+	font-family: "Outfit", sans-serif;
+	font-optical-sizing: auto;
+	font-size: 17px;
+	margin: 60px 0px 0px 0px;
+	color: #545454;
+	text-align: right;
+}
+
+#Work-Page-Text {
+    color: #ffffff;
+    text-align: center;
+	padding-top: 200px;
+	margin: auto;
+}
+
+#Work-Title {
+	font-family: "Outfit", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 800;
+	font-style: bold;
+	font-size: 60px;
+	margin: 10px;
+}
+
+#Work-Description {
+	font-family: "Outfit", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: bold;
+	font-size: 25px;
+
+	text-align: center;
+	margin: 10px;
+}
+
+.about-text {
+	display: flex;
+    align-items: flex-start;
+	padding-top: 70px;
+}
+
+#About-Page-Text {
+    color: #ffffff;
+    text-align: center;
+	padding: 30px 170px 0px 0px;
+	margin: auto;
+}
+
+#About-Title {
+	font-family: "Outfit", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 800;
+	font-style: bold;
+	font-size: 35px;
+	text-align: Left;
+
+	margin: 10px;
+}
+
+#About-SubTitle {
+	font-family: "Outfit", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: bold;
+	font-size: 25px;
+
+	text-align: Left;
+
+	margin: 10px;
+}
+
+#About-Description {
+	font-family: "Outfit", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: bold;
+	font-size: 18px;
+
+	text-align: Left;
+
+	margin: 10px;
+}
+
+.about-photo {
+	width: 340px;
+	height: auto;
+	border-radius: 50%;
+	padding: 60px 80px 20px 200px;;
+} 
+
+.Contact-Info {
+	font-family: "Outfit", sans-serif;
+	padding: 15px 0px 0px 70px;
+}
+
+#Contact {
+	font-family: "Outfit", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 800;
+	font-style: bold;
+	font-size: 30px;
+	text-align: Left;
+}
+
+#Contact-text {
+	font-family: "Outfit", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: bold;
+	font-size: 23px;
+	text-align: Left;
+	margin: 15px 0px 60px 0px;
+}
+
+#Info{
+	font-family: "Outfit", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: bold;
+	font-size: 20px;
+
+	text-align: Left;
+}
+
+.contact-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 170px 30px;
+}
+
+.Contact-Info {
+    width: 45%;
+}
+
+.contact-form {
+    width: 40%;
+	background-color: rgb(226, 139, 180);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+}
+
+.contact-form h2 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #ffffff;
+}
+
+.form-group textarea {
+    resize: none;
+    height: 80px;
+}
+
+.form-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.send-button {
+    padding: 8px 16px;
+    font-size: 14px;
+	background-color: rgb(227, 103, 161);
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.send-button:hover {
+	background-color: rgb(177, 109, 142);
+}
