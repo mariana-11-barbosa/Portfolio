@@ -72,12 +72,33 @@ body {
 }
 
 #statement {
-    color: #ffffff;
+    color: #FFFFFF;
     text-align: center;
-    padding: 230px 90px 60px 90px;
+    padding-top: 250px;
 	margin: auto;
-	font-family: "Outfit", sans-serif;
-	font-size: 100px;
+
+}
+
+#Greetings {
+	font-family: "Helvetica", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 800;
+	font-style: bold;
+	font-size: 60px;
+
+	margin: 10px;
+}
+
+#description {
+	font-family: "Helvetica", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 800;
+	font-style: bold;
+	font-size: 50px;
+
+	text-align: center;
+
+	margin: 10px;
 }
 
 
